@@ -1,8 +1,19 @@
-# Welcome to Blue Illusion
+# Welcome to Luminous Batteries Bot
 
-Creating apparel that inspires a better lifestyle while considering each element of impact throughout its lifecycle.
+It helps us find investors and other power solutions that work better for us.
+
+
+I need an Invertor for a 3-bedroom house that can handle some home appliances and has a fast charging speed.
 
 
 
-### How can we help you find your timeless style?
+
+
+
+
+
+
+
+
+
 
