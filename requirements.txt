@@ -1,0 +1,5 @@
+streamlit
+python-dotenv
+ragstack-ai
+beautifulsoup4
+boto3
