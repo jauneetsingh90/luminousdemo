@@ -32,8 +32,8 @@ for i in range(start, start+batch_size, batch_size):
     batch = df[i:i+batch_size]
     batch = batch.fillna('')
     for id, row in batch.iterrows():
-        #rawtext = f"productid: {row['productid']} category_name: {row['category_name']} sub_category_name: {row['sub_category_name']} eshop_category_name: {row['eshop_category_name']} product_name: {row['product_name']} description : {row['description']}  link: {row['link']} price: {row['price']} product_specification: {row['product_specification']} usuage: {row['usuage']} link: {row['link']} "
-        rawtext = f"product: {row['product']} size: {row['size']} type: {row['type']} price: {row['price']} description : {row['description']}  offer: {row['offer']} goes_good: {row['goes_good']}  "
+        rawtext = f"productid: {row['productid']} category_name: {row['category_name']} sub_category_name: {row['sub_category_name']} eshop_category_name: {row['eshop_category_name']} product_name: {row['product_name']} description : {row['description']}  link: {row['link']} price: {row['price']} product_specification: {row['product_specification']} usuage: {row['usuage']} link: {row['link']} "
+        #rawtext = f"product: {row['product']} size: {row['size']} type: {row['type']} price: {row['price']} description : {row['description']}  offer: {row['offer']} goes_good: {row['goes_good']}  "
         print(row['product'])
         #translated_text = translate_lang(rawtext)
         llmtexts.append(rawtext)
